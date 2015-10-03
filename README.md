@@ -1,2 +1,2 @@
 # pool-prime.net
-Cryptocurrency poll mining Primecoin
+Cryptocurrency pool mining Primecoin
