@@ -1,0 +1,1 @@
+{"_id":"_design/block","_rev":"1-3bc20917510647f0d4aa0d348081a437","language":"javascript","views":{"by_date":{"map":"function(doc) {\n  if (doc.type == \"block\")\n    emit(doc.date, doc.height);\n}","reduce":"_stats"},"by_height":{"map":"function(doc) {\n  if (doc.type == \"block\")\n    emit(doc.height,null);\n}"}}}
